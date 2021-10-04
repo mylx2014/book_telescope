@@ -52,6 +52,7 @@ export default {
 <style scoped>
    .book-header{
        background-color: #F5F7FA;
+       padding-bottom: 20px;
    }
 
    .header-main{

@@ -10,10 +10,11 @@ module.exports = {
             template: 'public/login.html',
             filename:'login.html',
         },
-        // 当使用只有入口的字符串格式时，
-        // 模板会被推导为 `public/subpage.html`
-        // 并且如果找不到的话，就回退到 `public/index.html`。
-        // 输出文件名会被推导为 `subpage.html`
+        ranking_list:{
+            entry:'src/pages/ranking_list/main.js',
+            template:'public/ranking_list.html',
+            filename:'ranking_list.html'
+        }
     },
     lintOnSave:false, //关闭语法检查
 }

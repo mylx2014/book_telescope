@@ -26,8 +26,8 @@
             </div>
             <div class="header-nav w">
                 <ul class="nav clearfix">
-                    <li :class="{'active':isactive}"><a href="/" target="_blank">首页</a></li>
-                    <li><a href="#">排行榜</a></li>
+                    <li :class="{'active':isactive==='1'}"><a href="/" target="_blank">首页</a></li>
+                    <li :class="{'active':isactive==='2'}"><a href="/ranking_list" target="_blank">排行榜</a></li>
                     <li><a href="#">分类</a></li>
                     <li><a href="#">男生</a></li>
                     <li><a href="#">女生</a></li>
@@ -46,7 +46,12 @@ import BookTag from "./BookTag";
 export default {
   name: "BookHeader",
   components:{BookTag},
-  props:['isactive']
+  props:['isactive'],
+  methods:{
+    handleActive($event){
+      console.log($event)
+    }
+  }
 }
 </script>
 

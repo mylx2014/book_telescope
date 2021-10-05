@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import BookHeader from "../../components/headers/BookHeader";
-import BookUser from "../../components/login/BookUser";
-import BookFooter from "../../components/BookFooter";
+import BookHeader from "../../components/base/headers/BookHeader";
+import BookUser from "../../components/pages/login/BookUser";
+import BookFooter from "../../components/base/BookFooter";
 
 export default {
   name: "login",

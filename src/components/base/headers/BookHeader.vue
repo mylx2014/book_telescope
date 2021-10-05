@@ -5,7 +5,7 @@
             <div class="header-main  clearfix">
                 <div class="logo-wrapper">
                     <a href="/" class="logo">
-                        <img src="../../assets/logo.png" alt="">
+                        <img src="../../../assets/logo.png" alt="">
                     </a>
                 </div>
                 <div class="search-wrapper clearfix">
@@ -26,7 +26,7 @@
             </div>
             <div class="header-nav w">
                 <ul class="nav clearfix">
-                    <li><a href="/" target="_blank">首页</a></li>
+                    <li :class="{'active':isactive}"><a href="/" target="_blank">首页</a></li>
                     <li><a href="#">排行榜</a></li>
                     <li><a href="#">分类</a></li>
                     <li><a href="#">男生</a></li>
@@ -45,7 +45,8 @@ import BookTag from "./BookTag";
 
 export default {
   name: "BookHeader",
-  components:{BookTag}
+  components:{BookTag},
+  props:['isactive']
 }
 </script>
 
@@ -137,5 +138,9 @@ export default {
 
     .nav li:hover{
         background-color: #E6A23C;
+    }
+
+    .nav li.active{
+      background-color: #E6A23C;
     }
 </style>

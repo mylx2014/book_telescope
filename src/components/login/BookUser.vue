@@ -5,7 +5,9 @@
                 <el-tab-pane label="登录">
                     <BookUserLogin></BookUserLogin>
                 </el-tab-pane>
-                <el-tab-pane label="注册"></el-tab-pane>
+                <el-tab-pane label="注册">
+                  <BookUserRegister></BookUserRegister>
+                </el-tab-pane>
             </el-tabs>
         </div>
     </div>
@@ -13,10 +15,11 @@
 
 <script>
 import BookUserLogin from "./BookUserLogin";
+import BookUserRegister from "./BookUserRegister";
 
 export default {
   name: "BookUser",
-  components:{BookUserLogin}
+  components:{BookUserLogin,BookUserRegister}
 }
 </script>
 

@@ -47,8 +47,4 @@ export default {
         position: relative;
         left: 10px;
     }
-
-    .user-info:last-child::before{
-        content: '';
-    }
 </style>

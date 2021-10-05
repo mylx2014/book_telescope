@@ -11,7 +11,7 @@
                             <div class="item-title" slot="header">
                                 <h3>都市</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -27,7 +27,7 @@
                             <div class="item-title" slot="header">
                                 <h3>科幻</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -43,7 +43,7 @@
                             <div class="item-title" slot="header">
                                 <h3>短篇</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -61,7 +61,7 @@
                             <div class="item-title" slot="header">
                                 <h3>军事</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -77,7 +77,7 @@
                             <div class="item-title" slot="header">
                                 <h3>仙侠</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -93,7 +93,7 @@
                             <div class="item-title" slot="header">
                                 <h3>游戏</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -111,7 +111,7 @@
                             <div class="item-title" slot="header">
                                 <h3>奇幻</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -127,7 +127,7 @@
                             <div class="item-title" slot="header">
                                 <h3>悬疑</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -143,7 +143,7 @@
                             <div class="item-title" slot="header">
                                 <h3>轻小说</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -161,7 +161,7 @@
                             <div class="item-title" slot="header">
                                 <h3>历史</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -177,7 +177,7 @@
                             <div class="item-title" slot="header">
                                 <h3>体育</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -193,7 +193,7 @@
                             <div class="item-title" slot="header">
                                 <h3>玄幻</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -211,7 +211,7 @@
                             <div class="item-title" slot="header">
                                 <h3>武侠</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -227,7 +227,7 @@
                             <div class="item-title" slot="header">
                                 <h3>现实</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -252,7 +252,7 @@
                             <div class="item-title" slot="header">
                                 <h3>现代言情</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -268,7 +268,7 @@
                             <div class="item-title" slot="header">
                                 <h3>仙侠奇缘</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -284,7 +284,7 @@
                             <div class="item-title" slot="header">
                                 <h3>科幻空间</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -302,7 +302,7 @@
                             <div class="item-title" slot="header">
                                 <h3>古代言情</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -318,7 +318,7 @@
                             <div class="item-title" slot="header">
                                 <h3>玄幻言情</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -334,7 +334,7 @@
                             <div class="item-title" slot="header">
                                 <h3>游戏竞技</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -352,7 +352,7 @@
                             <div class="item-title" slot="header">
                                 <h3>悬疑侦探</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">
@@ -368,7 +368,7 @@
                             <div class="item-title" slot="header">
                                 <h3>浪漫青春</h3>
                             </div>
-                            <el-table :data='tableData'>
+                            <el-table :data='tableData' stripe>
                                 <el-table-column label="排名" align="center" prop='id'></el-table-column>
                                 <el-table-column label="书名" align="center">
                                     <template slot-scope="props">

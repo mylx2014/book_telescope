@@ -14,6 +14,11 @@ module.exports = {
             entry:'src/pages/ranking_list/main.js',
             template:'public/ranking_list.html',
             filename:'ranking_list.html'
+        },
+        book_type:{
+            entry:'src/pages/book_type/main.js',
+            template:'public/book_type.html',
+            filename:'book_type.html'
         }
     },
     lintOnSave:false, //关闭语法检查

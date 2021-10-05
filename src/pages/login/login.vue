@@ -7,9 +7,9 @@
 </template>
 
 <script>
-import BookHeader from '/src/components/headers/BookHeader.vue'
-import BookFooter from "../components/BookFooter";
-import BookUser from "../components/login/BookUser";
+import BookHeader from "../../components/headers/BookHeader";
+import BookUser from "../../components/login/BookUser";
+import BookFooter from "../../components/BookFooter";
 
 export default {
   name: "login",

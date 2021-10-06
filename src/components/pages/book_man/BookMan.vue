@@ -8,7 +8,7 @@
 
 <script>
 import BookBanner from "../../base/type/BookBanner";
-import BookTypeHeader from "../../base/type/BookTypeHeader";
+import BookTypeHeader from "./BookTypeHeader";
 import BookTable from "../../base/type/BookTypeTable";
 
 export default {

@@ -28,12 +28,25 @@
                 <ul class="nav clearfix">
                     <li :class="{'active':isactive==='1'}"><a href="/" target="_blank">首页</a></li>
                     <li :class="{'active':isactive==='2'}"><a href="/ranking_list" target="_blank">排行榜</a></li>
-                    <li :class="{'active':isactive==='3'}"><a href="/book_type">分类</a></li>
-                    <li :class="{'active':isactive==='4'}"><a href="/book_man">男生</a></li>
-                    <li :class="{'active':isactive==='5'}"><a href="/book_woman">女生</a></li>
-                    <li :class="{'active':isactive==='6'}"><a href="/book_new">最新小说</a></li>
-                    <li :class="{'active':isactive==='7'}"><a href="/book_end">完本小说</a></li>
-                    <li><a href="#">我的书架</a></li>
+                    <li :class="{'active':isactive==='3'}"><a href="/book_type" target="_blank">分类</a></li>
+                    <li :class="{'active':isactive==='4'}"><a href="/book_man" target="_blank">男生</a></li>
+                    <li :class="{'active':isactive==='5'}"><a href="/book_woman" target="_blank">女生</a></li>
+                    <li :class="{'active':isactive==='6'}"><a href="/book_new" target="_blank">最新小说</a></li>
+                    <li :class="{'active':isactive==='7'}"><a href="/book_end" target="_blank">完本小说</a></li>
+<!--                    <li><a href="/login">我的书架</a></li>-->
+                    <li>
+                        <el-dropdown placement="bottom">
+                            <span class="nav-item">
+                                <a href="#">个人中心</a>
+                            </span>
+                            <el-dropdown-menu slot="dropdown" class="menu">
+                                <el-dropdown-item class="menu-item"><a href="#">我的书架</a></el-dropdown-item>
+                                <el-dropdown-item class="menu-item"><a href="#">个人中心</a></el-dropdown-item>
+                                <el-dropdown-item class="menu-item"><a href="#">我的书评</a></el-dropdown-item>
+                                <el-dropdown-item class="menu-item"><a href="#">退出登录</a></el-dropdown-item>
+                            </el-dropdown-menu>
+                        </el-dropdown>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -147,5 +160,28 @@ export default {
 
     .nav li.active{
       background-color: #E6A23C;
+    }
+
+    .nav:last-child{
+        position: relative;
+    }
+
+    .nav-item{
+      font-size: 18px;
+    }
+
+    .menu{
+        position: absolute;
+        width: 125px;
+        
+    }
+
+    .menu-item{
+        font-size: 18px;
+        /* background-color: red; */
+    }
+
+    .menu-item:hover{
+        background-color: #E6A23C;
     }
 </style>

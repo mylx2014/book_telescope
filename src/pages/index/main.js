@@ -2,7 +2,7 @@ import Vue from "vue";
 import index from './index'
 import '/public/src/css/base.css'
 import {
-    Input,Button,Divider,
+    Input,Button,Divider,DropdownItem,DropdownMenu,Dropdown,
     Carousel,CarouselItem,Card
 } from "element-ui";
 
@@ -14,6 +14,9 @@ Vue.use(Divider)
 Vue.use(Carousel)
 Vue.use(CarouselItem)
 Vue.use(Card)
+Vue.use(Dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
 
 new Vue({
     render: h => h(index),

@@ -3,7 +3,7 @@ import book_end from "./book_end";
 import '/public/src/css/base.css'
 
 import {
-    Input,Button,Divider,
+    Input,Button,Divider,Dropdown,DropdownMenu,DropdownItem,
     Card,
     Table,TableColumn
 } from 'element-ui'
@@ -13,6 +13,9 @@ Vue.config.productionTip = false
 Vue.use(Input)
 Vue.use(Button)
 Vue.use(Divider)
+Vue.use(Dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
 
 Vue.use(Card)
 

@@ -39,6 +39,11 @@ module.exports = {
             entry:'src/pages/book_end/main.js',
             template:'public/book_end.html',
             filename:'book_end.html'
+        },
+        home:{
+            entry:'src/pages/home/main.js',
+            template:'public/home.html',
+            filename:'home.html'
         }
 
     },

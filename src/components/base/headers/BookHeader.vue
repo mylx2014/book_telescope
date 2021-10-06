@@ -31,7 +31,7 @@
                     <li :class="{'active':isactive==='3'}"><a href="/book_type">分类</a></li>
                     <li :class="{'active':isactive==='4'}"><a href="/book_man">男生</a></li>
                     <li :class="{'active':isactive==='5'}"><a href="/book_woman">女生</a></li>
-                    <li><a href="#">最新小说</a></li>
+                    <li :class="{'active':isactive==='6'}"><a href="/book_new">最新小说</a></li>
                     <li><a href="#">完本小说</a></li>
                     <li><a href="#">我的书架</a></li>
                 </ul>

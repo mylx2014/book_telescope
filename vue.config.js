@@ -29,6 +29,11 @@ module.exports = {
             entry:'src/pages/book_woman/main.js',
             template:'public/book_woman.html',
             filename:'book_woman.html'
+        },
+        book_new:{
+            entry:'src/pages/book_new/main.js',
+            template:'public/book_new.html',
+            filename:'book_new.html'
         }
     },
     lintOnSave:false, //关闭语法检查

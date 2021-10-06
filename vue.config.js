@@ -19,6 +19,16 @@ module.exports = {
             entry:'src/pages/book_type/main.js',
             template:'public/book_type.html',
             filename:'book_type.html'
+        },
+        book_man:{
+            entry:'src/pages/book_man/main.js',
+            template:'public/book_man.html',
+            filename:'book_man.html'
+        },
+        book_woman:{
+            entry:'src/pages/book_woman/main.js',
+            template:'public/book_woman.html',
+            filename:'book_woman.html'
         }
     },
     lintOnSave:false, //关闭语法检查

@@ -22,6 +22,7 @@
 export default {
   name: "BookTypeTable"
 }
+
 </script>
 
 <style scoped>

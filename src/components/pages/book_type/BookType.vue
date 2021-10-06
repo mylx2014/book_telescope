@@ -7,7 +7,7 @@
 
 <script>
 import BookTypeHeader from "./BookTypeHeader";
-import BookTypeTable from "./BookTypeTable";
+import BookTypeTable from "../../base/type/BookTypeTable";
 
 export default {
   name: "BookType",

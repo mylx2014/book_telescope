@@ -34,7 +34,13 @@ module.exports = {
             entry:'src/pages/book_new/main.js',
             template:'public/book_new.html',
             filename:'book_new.html'
+        },
+        book_end:{
+            entry:'src/pages/book_end/main.js',
+            template:'public/book_end.html',
+            filename:'book_end.html'
         }
+
     },
     lintOnSave:false, //关闭语法检查
 }
